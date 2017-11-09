@@ -1,0 +1,27 @@
+{
+  "name": "poc-auth-api",
+  "version": "0.0.1",
+  "description": "Simple authorization API built on nodejs, hapi and JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified ... SAD!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korunka/poc-auth-api.git"
+  },
+  "keywords": [
+    "JWT",
+    "auth",
+    "Korunka"
+  ],
+  "author": "Ondra Hlaváč <ondrej.hlavac@korunka.eu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korunka/poc-auth-api/issues"
+  },
+  "homepage": "https://github.com/korunka/poc-auth-api#readme",
+  "dependencies": {
+    "hapi": "^16.6.2"
+  }
+}
