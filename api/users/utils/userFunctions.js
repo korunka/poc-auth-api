@@ -16,10 +16,10 @@ function verifyUniqueUser(req, res) {
 		if (user) {
 			if (user.username === req.payload.username) {
 				res(Boom.badRequest('Username is taken'));
-			}
-			if (user.email === req.payload.email) {
+			} else if (user.email === req.payload.email) {
 				res(Boom.badRequest('Email is taken'));
 			}
+			return;
 		}
 		// If everything checks out, send the payload through
 		// to the route handler

@@ -60,8 +60,7 @@ server.start((err) => {
 		dbUrl,
 		{
 			useMongoClient : true,
-			ssl            : true,
-			verify
+			ssl            : true
 		},
 		err => {
 			if (err) {
