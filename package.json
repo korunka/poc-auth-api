@@ -4,6 +4,7 @@
   "description": "Simple authorization API built on nodejs, hapi and JWT",
   "main": "server.js",
   "scripts": {
+    "run": "nodemon",
     "test": "echo \"Error: no test specified ... SAD!\" && exit 1"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "hapi": "^16.6.2",
     "hapi-auth-jwt": "^4.0.0",
     "joi": "^13.0.1",
-    "mongoose": "^4.13.1"
+    "mongoose": "^4.13.1",
+    "nodemon": "^1.12.1"
   }
 }
